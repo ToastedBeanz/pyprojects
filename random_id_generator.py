@@ -10,8 +10,9 @@ def generate_string(length: int = 16) -> str:
         
     return random_string # return random string
 
-# Example usage:
-print(generate_string())
+if __name__ == "__main__":
+    # Example usage:
+    print(generate_string())
 
 # fun fact:
 # If there are 62 different characters, and a length of 16, there are exactly 47,672,401,706,823,533,450,263,330,816 different combinations!
